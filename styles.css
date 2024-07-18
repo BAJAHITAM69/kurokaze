@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif, helvetica;
     background-color: #282c34;
     color: #fff;
     display: flex;
@@ -38,4 +38,19 @@ h1 {
     margin-top: 30px;
     font-size: 18px;
     font: sans-serif;
+}
+
+.copyright { 
+    margin-left: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.satria { color: #ffffff; }
+
+.haha { 
+        display: flex;
+        justify-content: bottom;
+
+
 }

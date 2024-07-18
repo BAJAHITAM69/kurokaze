@@ -1,5 +1,5 @@
 // Set the countdown date: 50 days, 17 hours, 15 minutes, and 30 seconds from now
-const countdownDate = new Date(Date.now() + (50 * 24 * 60 * 60 * 1000) + (17 * 60 * 60 * 1000) + (15 * 60 * 1000) + (30 * 1000));
+const countdownDate = new Date(Date.now() + (0o0 * 0o0 * 0o0 * 0o0 * 1000) + (0o0 * 0o0 * 0o0 * 1000) + (0o0 * 60 * 1000) + (12 * 1000));
 
 // Update the countdown every second
 const countdownFunction = setInterval(() => {
@@ -19,8 +19,18 @@ const countdownFunction = setInterval(() => {
     document.getElementById("seconds").innerText = seconds;
 
     // If the countdown is over, display a message
-    if (distance < 0) {
-        clearInterval(countdownFunction);
-        document.getElementById("countdown").innerHTML = "<h2>Time's up!</h2>";
-    }
+   if (distance < 0) {
+       clearInterval(countdownFunction);
+       const countdownElement = document.getElementById("countdown");
+       countdownElement.innerHTML = `
+           <div>
+               <h2>Gotcha !, this website is under construction :D</h2>
+               <img src='https://i.gifer.com/79pX.gif'>
+               <p>The Developer too lazy for making this website :V</p>
+               
+           </div>
+       `;
+   }
+        
+    
 }, 1000);
