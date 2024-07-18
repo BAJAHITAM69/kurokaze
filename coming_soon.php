@@ -13,7 +13,7 @@ $targetTimestamp = $targetDate->getTimestamp();
     <title>Coming Soon</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Arial, sans-serif, helvetica;
             background-color: #282c34;
             color: #fff;
             display: flex;
