@@ -1,7 +1,7 @@
 <?php
 // Set the countdown target date: 50 days, 17 hours, 15 minutes, and 30 seconds from now
 $targetDate = new DateTime();
-$targetDate->modify('+50 days +17 hours +15 minutes +30 seconds');
+$targetDate->modify('+00 days +00 hours +00 minutes +10 seconds');
 $targetTimestamp = $targetDate->getTimestamp();
 ?>
 
@@ -49,6 +49,10 @@ $targetTimestamp = $targetDate->getTimestamp();
     </style>
 </head>
 <body>
+    <audio autoplay loop>
+        <source src="rin.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
     <div class="container">
         <h1>Coming Soon</h1>
         <div id="countdown" class="countdown">
