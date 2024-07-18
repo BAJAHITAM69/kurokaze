@@ -1,7 +1,7 @@
 <?php
 // Set the countdown target date: 50 days, 17 hours, 15 minutes, and 30 seconds from now
 $targetDate = new DateTime();
-$targetDate->modify('+00 days +00 hours +00 minutes +10 seconds');
+$targetDate->modify('+00 days +00 hours +00 minutes +12 seconds');
 $targetTimestamp = $targetDate->getTimestamp();
 ?>
 
@@ -57,19 +57,19 @@ $targetTimestamp = $targetDate->getTimestamp();
         <h1>Coming Soon</h1>
         <div id="countdown" class="countdown">
             <div class="time-block">
-                <span class="days" id="days">50</span>
+                <span class="days" id="days">0</span>
                 <span class="label">Days</span>
             </div>
             <div class="time-block">
-                <span class="hours" id="hours">17</span>
+                <span class="hours" id="hours">0</span>
                 <span class="label">Hours</span>
             </div>
             <div class="time-block">
-                <span class="minutes" id="minutes">15</span>
+                <span class="minutes" id="minutes">0</span>
                 <span class="label">Minutes</span>
             </div>
             <div class="time-block">
-                <span class="seconds" id="seconds">30</span>
+                <span class="seconds" id="seconds">12</span>
                 <span class="label">Seconds</span>
             </div>
         </div>
